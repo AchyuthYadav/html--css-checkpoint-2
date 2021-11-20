@@ -1,0 +1,464 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: sans-serif; 
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;  
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+.navbar a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px 25px;
+    margin-left: 20px;
+    color: black;
+}
+.navbar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 1200px;
+}
+.child {
+    position: absolute;
+    top: 0;
+    left: 8.0%;
+    /* right: 4.0%; */
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    opacity: 70%;
+}
+
+/* home */
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 14px; 
+    text-transform: uppercase; 
+}
+.color {
+    background-color: white;
+    height: 100px;
+    width: 1150px;
+    position: fixed;
+}
+.spankey {
+    margin-right: 300px;
+    color: rgb(235,81,63);
+    font-size: 36px;
+    font-weight: 800px;
+    align-items: center;
+    padding: 10px;
+}
+.logo_flex {
+    margin-top: 6px;
+}
+.active a {
+    color: rgb(235,81,63);
+    border-top: 2px solid rgb(235,81,63);
+    padding-top: 40px;
+}
+.float {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* digital market */
+.heading {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    text-transform: uppercase;
+}
+.heading h1 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading p {
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+button {
+    background-color: rgb(235,81,63);
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+.heading hr {
+    width: 310px;
+}
+.parentimg {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+}
+
+/* Our Service */
+h2 {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.tags {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+hr {
+    width: 150px;
+}
+.outer-div{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: black;
+}
+.grey{
+    background-color: gray;
+}
+.box {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(92,189,157);
+    text-align: center; 
+    padding: 65px 100px;
+}
+.box1 {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(230,127,49);
+    text-align: center;
+    padding: 65px 100px;
+}
+.box2 {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(69,152,219);
+    text-align: center;
+    padding: 65px 100px;   
+}
+.box3 {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(104,205,115);
+    text-align: center;
+    padding: 65px 100px;   
+}
+.white {
+    color: white;
+    font-size: 40px;
+}
+
+/* portfolio */
+.portfolio img{
+    width: 260px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* team */
+.team img {
+    width: 250px;
+    border: none;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    padding: 5px 30px;   
+}
+.gray-div{
+    width: 500px;
+    height: 30px;
+    background-color: gray;
+}
+.orange-div{
+    width: 450px;
+    height: 30px;
+    background-color: orange;
+}
+
+/* design skills  */
+.leftpara {
+    width: 58%;
+    height: 150px;
+    text-align: left;
+}
+.rightpara {
+    width: 40%;
+    height: 150px;
+    margin-left: 90px;
+}
+.gray {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(231,231,231);
+    margin-bottom: 10px;
+}
+.orange {
+    width: 350px;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+}
+.orange1 {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+}
+.orange2 {
+    width: 280px;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+}
+.orange3 {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+}
+.social {
+    margin-bottom: 10px;
+}
+
+/* contact */
+.map iframe {
+   width: 100%;
+   height: 300px;
+}
+.name {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+    color: black;
+    border: 1px solid black;
+}
+.Message {
+    width: 400px;
+    height: 130px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+    color: black;
+    border: 1px solid black;
+}
+.send {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(234,81,62);
+}
+.tab {
+    margin-bottom: 250px;
+}
+.temp {
+    color: rgb(38, 38, 189);
+    font-weight: 800;
+}
+.green {
+    color: green;
+    font-weight: 800;   
+}
+.red {
+    color: red;
+    font-weight: 800;   
+}
+.black {
+    color: black;
+    font-weight: 900; 
+}
+
+/* footer */
+footer {
+    margin-bottom: 30px;
+}
+
+/* gallery page*/
+.body {
+    display: flex;
+} 
+
+/* aside */
+.header {
+    position: fixed;
+}
+.aside {
+    width: 350px;
+    height: 590px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    background-color: rgb(234,81,62);
+}
+.aside img {
+    width: 80px;
+}
+.aside h3 {
+    margin-right: 100px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.aside h4 {
+    background-color: rgb(235,81,63);
+    padding: 8px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+}
+.anything {
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+}
+.aside1 {
+    margin-top: 250px;
+}
+.head {
+    font-size: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+}
+.media1 a {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    color: white;
+    font-size: 12px;  
+    margin-right: 20px; 
+}
+.media1 {
+    margin-top: 20px;
+}
+.aside1 h5 {
+    font-size: 24px;
+    color: white;
+}
+
+/* gallery pictures */
+.gallerycontainer {
+    flex: 1 1 100%;
+    display: flex;   
+}
+.sidetag {
+    width: 480px;
+}
+.sidetag1 {
+    width: 480px;
+}
+.sidetag img {
+    width: 93%;
+    margin: 10px 0;
+    border: 2px solid black;
+}
+.sidetag1 img {
+    width: 90%;
+    margin: 10px 0;
+    border: 2px solid black;
+}
+.main {
+    margin-left: 400px;
+}
+h6 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 20px 0 40px 0;
+}
